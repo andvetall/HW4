@@ -1,0 +1,210 @@
+
+@font-face{
+	font-family: dosis-bold;
+	src: url('../fonts/dosis-bold.ttf');
+}
+@font-face{
+	font-family: dosis-medium;
+	src: url('../fonts/dosis-medium.ttf');
+}
+@font-face{
+	font-family: bebas-reg;
+	src: url('../fonts/bebas-reg.ttf');
+}
+*{
+	margin: 20px auto;
+}
+
+body{
+	color: #6d6d6d;
+	font-family: dosis-medium;
+	max-width: 1400px;
+}
+.main-content{
+	max-width: 80%;
+}
+h1{
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 40px;
+	color: #7ea2b3;
+	font-family: bebas-reg;
+}
+h4{
+	font-size: 24px;
+	line-height: 30px;
+	color: #7ea2b3;
+	font-family: bebas-reg;
+}
+
+
+
+.line1, .line3{
+	display: flex;
+	flex-direction: row;
+	margin-right: -75px;
+}
+.line2{
+	display: flex;
+	flex-direction: row-reverse;
+	margin-left: -75px;
+}
+.line1-card, .line2-card, .line3-card{
+	font-size: 18px;
+	line-height: 24px;
+	box-shadow: 0 0 20px rgba(0,0,0,0.5);
+	background-color: #f6fcff;
+	height: 250px;
+	width: 600px;
+	padding-left: 80px;
+	padding-right: 100px;
+	padding-top: 50px;
+	position: relative;
+}
+.line1-card, .line3-card{
+	top: 60px;
+	right: 75px;
+}
+.line2-card{
+	top: 60px;
+	left: 75px;
+}
+.line1-pic, .line2-pic, .line3-pic{
+	max-width: 50%;
+
+} 
+.button1, .button2, .button3{
+	cursor: pointer;
+	background-color: #97b621;
+	border-style: none;
+	border-radius: 20px;
+	height: 40px;
+	margin: 0 15px;
+	text-transform: uppercase;
+	font-family: bebas-reg;
+	color: white;
+	font-size: 16px;
+	line-height: 22px;
+	padding: 0 20px;
+}
+
+
+.main-button{
+	display: flex;
+	flex-direction: row;
+	cursor: pointer;
+	background-color: white;
+	border-style: solid;
+	border-color: #97b621;
+	border-radius: 20px;
+	height: 40px;
+	width: 250px;
+	margin: 0 20px;
+	text-transform: uppercase;
+	font-family: bebas-reg;
+	color: #97b621;
+	font-size: 16px;
+	line-height: 22px;
+	margin: 40px 40%;
+}
+.main-button:before{
+	content:"";
+	margin: 0 30px;
+	width: 0; 
+	height: 0;
+	border-top: 9px solid transparent;
+	border-left: 9px solid #97b621;
+	border-bottom: 9px solid transparent;
+}
+
+.bottom-part{
+	margin-top: 0;
+	display: flex;
+	flex-direction: row;
+	background-color: #F7F9EE;
+}
+h2{
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 40px;
+	line-height: 50px;
+	color: #7ea2b3;
+	font-family: bebas-reg;
+	background-color: #F7F9EE;
+	margin-bottom: 0;
+	margin-top: 40px;
+	padding-top: 40px;
+
+}
+.button4, .button5, .button6, .button7{
+	font-family: bebas-reg;
+ 	display: block;
+ 	margin-left: 60px;
+ 	cursor: pointer;
+	background-color: #97b621;
+	border-style: none;
+	border-radius: 20px;
+	height: 40px;
+	width: 150px;
+	font-size: 13px;
+	line-height: 22px;
+	color: white;
+	text-transform: uppercase; 
+}
+.bottom-part h4{
+ 	margin-left: 45px;
+}
+
+.btm-card1:hover{
+	background-color: rgba(21,51,68,0.6);
+	font-family: dosis-medium;
+	font-size: 18px;
+	line-height: 35px;
+}
+.btm-card2:hover{
+	background-color: rgba(21,51,68,0.6);
+	font-family: dosis-medium;
+	font-size: 18px;
+	line-height: 35px;
+}
+.btm-card3:hover{
+	background-color: rgba(21,51,68,0.6);
+	font-family: dosis-medium;
+	font-size: 18px;
+	line-height: 35px;
+}
+.btm-card4:hover{
+	background-color: rgba(21,51,68,0.6);
+	font-family: dosis-medium;
+	font-size: 18px;
+	line-height: 35px;
+}
+	
+/*@media (max-width: 500px){
+	body{
+		width: 100vh;
+		margin: 0 auto;
+	}
+
+	.line1, .line2, .line3{
+		margin-top: 10px;
+		margin-bottom: 10px;
+		display: block;
+		max-width: 100vh;
+	}
+	.btm-card1, .btm-card2, .btm-card3, .btm-card4{
+		margin-top: 10px;
+		margin-bottom: 10px;
+		display: block;
+		max-width: 100vh;
+	}
+	.line1-card, .line3-card{
+	top: 0;
+	right: 0;
+	}
+	.line2-card{
+	top: 0;
+	left: 0;
+	}*/
+	
+}
